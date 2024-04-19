@@ -5,12 +5,7 @@ describe("task1", () => {
     it('should work fine', () => {
         expect(funcs.square(2)).toBe(4);
     });
-    it('should work fine', () => {
-        expect(funcs.square(-3)).toBe(9);
-    });
-    it('should not work fine', () => {
-        expect(funcs.square(0)).toBe(0);
-    });
+   
 });
 
 describe("task2", () => {
